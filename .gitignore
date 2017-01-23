@@ -5,6 +5,8 @@ inputdata/
 .eslintrc.js
 gulpfile.js
 log4js.conf.json
+js/converters
+js/vendor
 css/
 html_docs/
 test/
