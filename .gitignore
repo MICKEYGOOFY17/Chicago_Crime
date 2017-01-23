@@ -1,0 +1,10 @@
+node_modules
+/
+inputdata/
+.babelrc
+.eslintrc.js
+gulpfile.js
+log4js.conf.json
+css/
+html_docs/
+test/
