@@ -1,11 +1,8 @@
-node_modules
-/
+node_modules/
 inputdata/
 .babelrc
 .eslintrc.js
 gulpfile.js
 log4js.conf.json
-js/converters
-js/vendor
-test/
-js/testCodeQQuality.js
+js/testCodeQuality.js
+js/vendor/placeholder.txt
