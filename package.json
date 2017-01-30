@@ -4,7 +4,7 @@
   "scripts": {
     "test": "mocha",
     "build": "gulp build",
-    "execute": "node js/testCodeQuality.js"
+    "execute": "node js/csv2json_uv.js"
   },
   "author": "StackRoute",
   "license": "Apache-2.0",
