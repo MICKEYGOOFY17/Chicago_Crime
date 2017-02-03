@@ -1,5 +1,5 @@
 
-var a = (year) => {
+module.exports = (year) => {
     if(!year || typeof year !== 'number')
     {
         throw Error('Not a number');
@@ -34,7 +34,7 @@ for(let i = 0; i < 16; i = i + 1)
 /* event emitter is created */
 let rd = readline.createInterface({
     input: fs.createReadStream('../inputdata/crimedata.csv'),
-    output: process.stdout ,
+    output: process.stdout,
     terminal: false
 });
 
@@ -80,10 +80,4 @@ fs.writeFileSync('../outputdata/theft.json', JSON.stringify(myData));
 fs.writeFileSync('../outputdata/assault.json', JSON.stringify(myData1));
 });
 return 'JSON written successfully';
-};
-
-a(2001);
-
-module.exports = {
-  a
 };
